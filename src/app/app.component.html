@@ -1,11 +1,27 @@
 <form class="example-form">
   <mat-form-field class="example-full-width" appearance="fill">
     <mat-label>Favorite food</mat-label>
-    <input matInput placeholder="Ex. Pizza" value="Sushi">
+    <label>
+      <input matInput placeholder="Ex. Pizza" value="Sushi">
+    </label>
+
+    <mat-label>Leave a comment</mat-label>
+    <label>
+      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    </label>
   </mat-form-field>
 
-  <mat-form-field class="example-full-width" appearance="fill">
-    <mat-label>Leave a comment</mat-label>
-    <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
-  </mat-form-field>
 </form>
+
+
+<H1>Routing </H1>
+<nav>
+  <ul>
+    <li>
+      <a routerLink="/LoginComponent"> login </a>
+    </li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
+
+
