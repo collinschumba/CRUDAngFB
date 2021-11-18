@@ -5,11 +5,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { LoginComponent } from './logins/login/login.component';
 import { FirstComponent } from './first/first/first.component';
+import { TopbarComponent } from './Components/topbar/topbar.component';
 
 
 const routes: Routes = [
   { path: 'first-component', component: FirstComponent },
-  { path: 'LoginComponent', component: LoginComponent}
+  { path: 'LoginComponent', component: LoginComponent},
+  { path: 'TopbarComponent', component: TopbarComponent}
 ];
 
 @NgModule({
