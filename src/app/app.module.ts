@@ -12,12 +12,14 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 import { FirstComponent } from './first/first/first.component';
 import { LoginComponent } from './logins/login/login.component';
+import { TopbarComponent } from './Components/topbar/topbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
     LoginComponent,
+    TopbarComponent,
 
     ],
 
