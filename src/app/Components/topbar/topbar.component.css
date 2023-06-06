@@ -1,8 +1,8 @@
 .header{
-  margin-right: 150px;
-  size: flex;
+  margin-right: 50px;
   background-color: darkgray;
-  padding-top: 150px;
-  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   font: Helvetica;
+  text-orientation: inherit;
 }

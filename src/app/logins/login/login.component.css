@@ -1,14 +1,24 @@
-.example-full-width{
-  background-color: beige;
-  padding-right: 150px;
+.userform{
+  width: fit-content;
+  height: fit-content;
+  padding: 50px;
+  position: absolute;
+  left: 300px;
+  padding-right: 450px;
+  ;
 
 }
-.example-full-width {
-  color:violet;
-}
+
 .username{
-  color: yellow;
+  color: black;
 }
 .password{
   color:cadetblue;
+}
+.loginbutton{
+  border-radius: 8px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  width: 120px;
 }

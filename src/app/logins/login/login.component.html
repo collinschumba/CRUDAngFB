@@ -1,25 +1,18 @@
 
-
-<app-topbar></app-topbar>
-
-<form class="example-form">
-  <mat-form-field class="example-full-width" appearance="fill">
-
-    <mat-label>Favorite food</mat-label>
-
-    <label class="username">
-      <input matInput placeholder="username" value="joe">
-    </label>
-    <br/>
-
-    <mat-label>Leave a comment</mat-label>
-    <label class="password">
-      <input matInput placeholder="password" value="">
-    </label>
-
-    <label>
-      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
-    </label>
+<form class="userform">
+  <mat-form-field class="username">
+    <mat-label>Username</mat-label>
+    <input matInput placeholder="Ex. Pizza" value="Sushi">
   </mat-form-field>
+
+  <mat-form-field class="password">
+    <mat-label>Password</mat-label>
+    <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+  </mat-form-field>
+
+
+  <div class="loginbutton">
+    <button mat-stroked-button>LogIn</button>
+  </div>
 
 </form>
